@@ -2,10 +2,10 @@
   "version": "1.0.0",
   "description": "Deck created with mdx-deck",
   "scripts": {
-    "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx",
-    "pdf": "mdx-deck pdf deck.mdx",
-    "image": "mdx-deck screenshot deck.mdx",
+    "start": "mdx-deck deck.mdx -p 8070",
+    "build": "mdx-deck build deck.mdx -p 8070",
+    "pdf": "mdx-deck pdf deck.mdx -p 8070",
+    "image": "mdx-deck screenshot deck.mdx -p 8070",
     "help": "mdx-deck"
   },
   "devDependencies": {
